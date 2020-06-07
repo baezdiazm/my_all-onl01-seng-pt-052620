@@ -10,3 +10,6 @@ def my_all?(collection)
   end
 
 end
+
+
+my_all?(array) {|counter| counter < 2}
