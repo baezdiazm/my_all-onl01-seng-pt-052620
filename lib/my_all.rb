@@ -5,7 +5,7 @@ def my_all?(collection)
   returnvalues = []
 
   while counter < collection.length
-    returnvalues <<  yield(collection[counter])
+    returnvalues << yield(collection[counter])
     counter += 1
   end
 
