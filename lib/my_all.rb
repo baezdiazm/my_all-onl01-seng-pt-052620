@@ -16,4 +16,4 @@ def my_all?(collection)
 end
 
 
-my_all?(array) {|counter| counter < 2}
+
