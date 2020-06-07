@@ -8,11 +8,11 @@ def my_all?(collection)
     returnvalues << yield(collection[counter])
     counter += 1
   end
-if returnvalues.include?(false)
-  false
-else
-  true
-end
+  if returnvalues.include?(false)
+    false
+  else
+    true
+  end
 end
 
 
